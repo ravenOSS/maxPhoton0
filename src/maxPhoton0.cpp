@@ -59,8 +59,11 @@ void loop ()
   Serial.println(end);
   Serial.print("Elapsed: ");
   Serial.println(elapsed);
-  // int data = parseInt(buf);
+
   Serial.println(buf);
+  int data = atoi(buf);
+  Serial.print("Parsed: ");
+  Serial.println(data);
   delay(1200); // Repeat the process every X milliseconds
 }
 
