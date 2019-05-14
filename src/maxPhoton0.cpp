@@ -53,13 +53,17 @@ void loop ()
     unsigned long end = micros();
     unsigned long elapsed = millis() / (60 * 1000); // millis is the time since code was started
   Serial1.flush();
+
   Serial.print("Start: ");
   Serial.println(start);
+
   Serial.print("End: ");
   Serial.println(end);
+
   Serial.print("Elapsed: ");
   Serial.println(elapsed);
-
+  
+  Serial.print("Buf: ");
   Serial.println(buf);
   int data = atoi(buf);
   Serial.print("Parsed: ");
