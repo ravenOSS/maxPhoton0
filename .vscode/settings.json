@@ -5,7 +5,7 @@
         "*.ino": "cpp"
     },
     "particle.targetDevice": "mqmqPhoton10_19",
-    "particle.firmwareVersion": "1.1.0-rc.2",
+    "particle.firmwareVersion": "1.0.1",
     "particle.targetPlatform": "photon",
     "cortex-debug.openocdPath": "/Users/raventt/.particle/toolchains/openocd/0.10.0-particle.1/bin/openocd"
 }
